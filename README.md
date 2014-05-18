@@ -1,15 +1,11 @@
-# [gulp](https://github.com/gulpjs/gulp)-symlink [![Build Status](https://travis-ci.org/ben-eb/gulp-symlink.svg?branch=master)](https://travis-ci.org/ben-eb/gulp-symlink) [![NPM version](https://badge.fury.io/js/gulp-symlink.svg)](http://badge.fury.io/js/gulp-symlink) [![Dependency Status](https://gemnasium.com/ben-eb/gulp-symlink.svg)](https://gemnasium.com/ben-eb/gulp-symlink)
-
-> Create symlinks during your gulp build.
-
-**NOTE: Breaking changes are introduced in 1.0.0. gulp-symlink has been rewritten with a simpler API, that takes the output directory and renamed file as a single parameter. Existing gulpfiles using the old API will break if this module is substituted for the 0.4.x releases. Please take care to read the new API docs for migrating over from older versions. Thank you.**
+This is a fork of ben-eb's gulp-symlink that does not show annoying debug output. Later I might update it more to make it behave the way I want it and even add it to npm too.
 
 ## Installation
 
-Install via [npm](https://npmjs.org/package/gulp-symlink):
+Install via npm:
 
 ```
-npm install gulp-symlink --save-dev
+npm install nmrugg/gulp-symlink --save-dev
 ```
 
 ## Example
