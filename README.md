@@ -1,4 +1,7 @@
-This is a fork of ben-eb's gulp-symlink that does not show annoying debug output. Later I might update it more to make it behave the way I want it and even add it to npm too.
+# NOTE
+This is a fork of ben-eb's gulp-symlink that does not show annoying debug output. 
+
+However, since `gulp` always streams files (even really large ones), this is a very inefficiency way to symlink files. So I created <a href="https://github.com/nmrugg/symlink-files">symlink-files</a>. So, I don't use this anymore.
 
 ## Installation
 
