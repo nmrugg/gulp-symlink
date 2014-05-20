@@ -1,20 +1,17 @@
 {
-  "name": "gulp-symlink",
-  "version": "1.0.3",
-  "description": "Create symlinks during your gulp build.",
+  "name": "gulp-symlink-files",
+  "version": "0.0.1",
+  "description": "Symlink files (keeping the directory structure) during your gulp build.",
   "license": "MIT",
-  "homepage": "https://github.com/ben-eb/gulp-symlink",
+  "homepage": "https://github.com/nmrugg/gulp-symlink-files",
   "author": {
-    "name": "Ben Briggs",
-    "email": "therealbenbriggs@hotmail.com",
-    "url": "http://beneb.info"
-  },
-  "scripts": {
-    "test": "mocha"
+    "name": "Nathan Rugg",
+    "email": "nmrugg@gmail.com",
+    "url": "http://nmrugg.wordpress.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ben-eb/gulp-symlink.git"
+    "url": "git://github.com/nmrugg/gulp-symlink-files.git"
   },
   "keywords": [
     "gulpplugin",
@@ -24,16 +21,6 @@
     "gulp-util": "~2.2.14",
     "mkdirp": "^0.4.0",
     "through2": "^0.4.1"
-  },
-  "devDependencies": {
-    "chai": "~1.9.0",
-    "clear": "0.0.1",
-    "gulp": "~3.5.2",
-    "gulp-jshint": "~1.4.0",
-    "gulp-mocha": "~0.4.1",
-    "jshint-stylish": "~0.1.5",
-    "mocha": "~1.17.1",
-    "rimraf": "^2.2.6"
   },
   "main": "index.js"
 }
